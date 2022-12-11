@@ -7,7 +7,7 @@ function calcShipping(sum, min, shipping) {
     }else if (productsSum >= freeShippingMinSum){
         shippingPrice = 0;
     }else if (0 < productsSum < freeShippingMinSum){
-        shippingPrice = 0;
+        shippingPrice = 200;
     }
 
     
